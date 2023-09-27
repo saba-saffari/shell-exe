@@ -1,0 +1,5 @@
+# Ouvrir cron editeur
+crontab -e
+
+# editer crontab avec ce code pour executer chaque 30 min
+*/30 * * * * cd ~/shell-exe/Job08 && ./get_logs.sh
